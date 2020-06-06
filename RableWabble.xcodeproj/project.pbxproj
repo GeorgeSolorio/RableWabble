@@ -17,6 +17,8 @@
 		C081D48B248ABE5500EDA619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C081D48A248ABE5500EDA619 /* Assets.xcassets */; };
 		C081D49B248AC0BC00EDA619 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C081D49A248AC0BC00EDA619 /* Question.swift */; };
 		C081D49D248AC12900EDA619 /* QuestionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C081D49C248AC12800EDA619 /* QuestionGroup.swift */; };
+		C0BAAFBE248B155C00CD8F6D /* SelectQuestionGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BAAFBD248B155C00CD8F6D /* SelectQuestionGroupViewController.swift */; };
+		C0BAAFC0248B16DC00CD8F6D /* QuestionGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BAAFBF248B16DC00CD8F6D /* QuestionGroupCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		C081D48F248ABE5500EDA619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C081D49A248AC0BC00EDA619 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		C081D49C248AC12800EDA619 /* QuestionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroup.swift; sourceTree = "<group>"; };
+		C0BAAFBD248B155C00CD8F6D /* SelectQuestionGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectQuestionGroupViewController.swift; sourceTree = "<group>"; };
+		C0BAAFBF248B16DC00CD8F6D /* QuestionGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				C081D485248ABE5400EDA619 /* QuestionViewController.swift */,
+				C0BAAFBD248B155C00CD8F6D /* SelectQuestionGroupViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 				C031A9DA248AF70700796991 /* LaunchScreen.storyboard */,
 				C081D487248ABE5400EDA619 /* Main.storyboard */,
 				C031A9DC248AF76600796991 /* QuestionView.swift */,
+				C0BAAFBF248B16DC00CD8F6D /* QuestionGroupCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,7 +201,9 @@
 				C081D482248ABE5400EDA619 /* AppDelegate.swift in Sources */,
 				C031A9DD248AF76600796991 /* QuestionView.swift in Sources */,
 				C031A9D9248AF5C900796991 /* QuestionGroupData.swift in Sources */,
+				C0BAAFC0248B16DC00CD8F6D /* QuestionGroupCell.swift in Sources */,
 				C081D49D248AC12900EDA619 /* QuestionGroup.swift in Sources */,
+				C0BAAFBE248B155C00CD8F6D /* SelectQuestionGroupViewController.swift in Sources */,
 				C081D484248ABE5400EDA619 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

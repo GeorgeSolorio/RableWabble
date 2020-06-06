@@ -1,5 +1,5 @@
 //
-//  Question.swift
+//  QuestionGroupData.swift
 //  RableWabble
 //
 //  Created by George Solorio on 6/5/20.

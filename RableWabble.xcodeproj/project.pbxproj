@@ -17,6 +17,8 @@
 		C081D48B248ABE5500EDA619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C081D48A248ABE5500EDA619 /* Assets.xcassets */; };
 		C081D49B248AC0BC00EDA619 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C081D49A248AC0BC00EDA619 /* Question.swift */; };
 		C081D49D248AC12900EDA619 /* QuestionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C081D49C248AC12800EDA619 /* QuestionGroup.swift */; };
+		C08DC0AB248D773E002BC89C /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08DC0AA248D773E002BC89C /* AppSettings.swift */; };
+		C08DC0AD248D7D25002BC89C /* AppSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08DC0AC248D7D25002BC89C /* AppSettingsViewController.swift */; };
 		C0BAAFBE248B155C00CD8F6D /* SelectQuestionGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BAAFBD248B155C00CD8F6D /* SelectQuestionGroupViewController.swift */; };
 		C0BAAFC0248B16DC00CD8F6D /* QuestionGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BAAFBF248B16DC00CD8F6D /* QuestionGroupCell.swift */; };
 		C0EA5523248B4BCE00FA6861 /* QuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA5522248B4BCE00FA6861 /* QuestionStrategy.swift */; };
@@ -37,6 +39,8 @@
 		C081D48F248ABE5500EDA619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C081D49A248AC0BC00EDA619 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		C081D49C248AC12800EDA619 /* QuestionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroup.swift; sourceTree = "<group>"; };
+		C08DC0AA248D773E002BC89C /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		C08DC0AC248D7D25002BC89C /* AppSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewController.swift; sourceTree = "<group>"; };
 		C0BAAFBD248B155C00CD8F6D /* SelectQuestionGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectQuestionGroupViewController.swift; sourceTree = "<group>"; };
 		C0BAAFBF248B16DC00CD8F6D /* QuestionGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupCell.swift; sourceTree = "<group>"; };
 		C0EA5522248B4BCE00FA6861 /* QuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStrategy.swift; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 			children = (
 				C081D485248ABE5400EDA619 /* QuestionViewController.swift */,
 				C0BAAFBD248B155C00CD8F6D /* SelectQuestionGroupViewController.swift */,
+				C08DC0AC248D7D25002BC89C /* AppSettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 				C031A9D8248AF5C800796991 /* QuestionGroupData.swift */,
 				C081D49C248AC12800EDA619 /* QuestionGroup.swift */,
 				C081D49A248AC0BC00EDA619 /* Question.swift */,
+				C08DC0AA248D773E002BC89C /* AppSettings.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -213,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08DC0AB248D773E002BC89C /* AppSettings.swift in Sources */,
 				C081D486248ABE5400EDA619 /* QuestionViewController.swift in Sources */,
 				C081D49B248AC0BC00EDA619 /* Question.swift in Sources */,
 				C081D482248ABE5400EDA619 /* AppDelegate.swift in Sources */,
@@ -223,6 +230,7 @@
 				C0EA5527248B4FAB00FA6861 /* RandomQuestionStrategy.swift in Sources */,
 				C0EA5523248B4BCE00FA6861 /* QuestionStrategy.swift in Sources */,
 				C081D49D248AC12900EDA619 /* QuestionGroup.swift in Sources */,
+				C08DC0AD248D7D25002BC89C /* AppSettingsViewController.swift in Sources */,
 				C0BAAFBE248B155C00CD8F6D /* SelectQuestionGroupViewController.swift in Sources */,
 				C081D484248ABE5400EDA619 /* SceneDelegate.swift in Sources */,
 			);

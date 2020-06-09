@@ -7,6 +7,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--NewQuestionGroup-->
+        <scene sceneID="NFR-EY-21P">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NewQuestionGroup" id="zt8-gC-N6Z" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fvh-mr-XqY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="819" y="-272"/>
+        </scene>
         <!--Question View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -100,7 +108,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="112.5"/>
+            <point key="canvasLocation" x="1012" y="113"/>
         </scene>
         <!--Select Question Group-->
         <scene sceneID="Mh5-Ta-24L">
@@ -170,6 +178,11 @@
                         <barButtonItem key="leftBarButtonItem" image="ic_settings" id="s2f-Vp-ae8">
                             <connections>
                                 <segue destination="LPL-Wb-lKe" kind="show" id="t63-EK-cD6"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="eYn-Zi-imU">
+                            <connections>
+                                <segue destination="zt8-gC-N6Z" kind="presentation" id="hua-e0-T8d"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

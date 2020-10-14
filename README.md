@@ -2,9 +2,7 @@
 
 ## About
 A case study based on [RayWendelich's iOS Design Patterns](https://www.raywenderlich.com/books/design-patterns-by-tutorials/v3.0) tutorial. 
-This project includes common and essential design patterns found in many iOS apps.The app consists of common design patterns found in many
-iOS apps, allowing the user to create quizes, test and grade their results, choose between random or sequential order of questions, save and display
-user's quiz results.
+The app consists of common design patterns found in many iOS apps, allowing the user to create  a set of questions, test their Japanese knowledge, choose between random or sequential order, save and display the user's tracked score.
 
 ## Learning Objectives
 To learn common design patterns found in many iOS apps. Patterns such as
@@ -17,10 +15,10 @@ To learn common design patterns found in many iOS apps. Patterns such as
 * Builder
 
 ## Usage
-You can launch this project in Xcode and simulate the app on your preffered device simulator. You can also try to install it on your physical iOS device.
+You can launch this project in Xcode and simulate the app on your preffered iOS simulator. You can also try to install it on your physical iOS device.
 
-This app is perfect for practicing japanese! You will be greeted with a set of Japanese questions, you can choose which ever set you want to start with.
-The goal is to guess the answer in your head, check if it's correct and press on the red button if it's correct or green if it's wrong. Keep it honest if you really want to improve your skills. You can set the question in random or sequential order, you can even creaete your every own set of questions! A perfect Japanese quiz app to test your skills and track your own knowledge!
+This app is perfect for practicing japanese! You will be greeted with a set of questions, you can choose which ever set you want to start with.
+The goal is to guess the answer, check if it's correct and press on the red button if it's wrong or green if it's correct. Make sure to stay honest to yourself. You can set the questions in random or sequential order and even create your every own set of questions! A perfect Japanese quiz app to test your skills and track your own knowledge!
 
 | Guess                           |  Check                                         | Track                                | Create                               |
 :--------------------------------:|:----------------------------------------------:|:------------------------------------:|:------------------------------------:|
@@ -31,7 +29,7 @@ The goal is to guess the answer in your head, check if it's correct and press on
 
 ## App Delegate
 The app delegate files can be found in the [App delegate](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/AppDelegate) folder.
-This folder consits of app delegate files given by Xcode's biolerplate code. 
+This folder consits of app delegate files given by Xcode's biolerplate code in UIKit. 
 
 ## Builder 🏗
 The builder files can be found in the [Builder](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Builders) folder
@@ -59,10 +57,10 @@ The controllers files can be found in the [Controllers](https://github.com/Georg
 | AppSettingsViewController.swift         | AppSettingsViewController         | None                                      |
 | CreateQuestionGroupViewController.swift | CreateQuestionGroupViewController | CreateQuestionGroupViewControllerDelegate |
 | QuestionViewController.swift            | QuestionViewController            | QuestionViewControllerDelegate            |
-| SelectQuestionGroupViewController.swift |  SelectQuestionGroupViewController| None                                      |
+| SelectQuestionGroupViewController.swift | SelectQuestionGroupViewController | None                                      |
 
 ## Models ℹ️
-The models files can be found in the [Models](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Models) folder
+The model files can be found in the [Models](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Models) folder
 | File                       | Description                                         | Obejcts                           |
 | ---------------------------|:----------------------------------------------------|:----------------------------------|
 | AppSettings.swift          |  Informs the UserDefaults about the user's settings | AppSettings, QuestionStrategyType |
@@ -70,28 +68,28 @@ The models files can be found in the [Models](https://github.com/GeorgeSolorio/R
 | QuestionGroup.swift        |  Contains information about the set of questions    | QuestionGroup                     |
 
 ## Resources 🛍
-The Resources files can be found in the [Resources](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Resources) folder
-Contains resouces such as user info, the japanese questions and images
+The Resource files can be found in the [Resources](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Resources) folder
+Contains resouces such as user info, the japanese questions and app images
 
 ## Strategies 🗺
 The Strategies files can be found in the [Strategies](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Strategies) folder
-| File                         | Description                                         | Obejcts                           |
-| -----------------------------|:----------------------------------------------------|:----------------------------------|
-| BaseQuestionStrategy.swift   |  contains methods that informs and aids in the transition of questions     | BaseQuestionStrategy |
-| QuestionStrategy             |  An interface for the methods that aid in the transition of questions  | QuestionStrategy |
-| RandomQuestionStrategy.swift |  contains the procedure of shuffling and randomzing a given set of questions   | RandomQuestionStrategy |
-| SequentialQuestionStrategy.swift | contains the procedure of sequential set of questions | SequentialQuestionStrategy |
+| File                             | Description                                                                   | Obejcts                    |
+| ---------------------------------|:------------------------------------------------------------------------------|:---------------------------|
+| BaseQuestionStrategy.swift       | contains methods that informs and aids in the transition of questions         | BaseQuestionStrategy       |
+| QuestionStrategy                 | An interface for the methods that aid in the transition of questions          | QuestionStrategy           |
+| RandomQuestionStrategy.swift     | contains the procedure of shuffling and randomzing a given set of questions   | RandomQuestionStrategy     |
+| SequentialQuestionStrategy.swift | contains the procedure of sequential set of questions                         | SequentialQuestionStrategy |
 
 ## Views 🖼
 The Views files can be found in the [Views](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Views) folder
-| File                         | Description                                         | Obejcts                                                        |
-| -----------------------------|:----------------------------------------------------|:---------------------------------------------------------------|
-| CreateQuestionCell.swift     | Contains outlet connections for the creation View.  | CreateQuestionCell                                             |
-| CreateQuestionGroupTitleCell | Creates a title based on the question name          | CreateQuestionGroupTitleCell                                   |
-| JapaneseTextField.swift      | Converts textfields into Japanese                   | JapaneseTextField, CaseBasedChart, KatakanaChart, HiraganaChart|
-| LaunchScreen.storyboard      | The launch screen                                   |                                                                |
-| MainStoryboard.storyboard    | The main story board containing the prototype view  |                                                                |
-| NewQuestionGroup.storyboard  | The new custom question prototype view              |                                                                |
-| QuestionGroupCell.swift      | Contains the cell that displays the title and percentage | QuestionGroupCell                                         |
-| QuestionView.swift           | Contains outlet connections to the prompt view      | QuestionView                                                   |
+| File                         | Description                                              | Obejcts                                                        |
+| -----------------------------|:---------------------------------------------------------|:---------------------------------------------------------------|
+| CreateQuestionCell.swift     | Contains outlet connections for the creation View.       | CreateQuestionCell                                             |
+| CreateQuestionGroupTitleCell | Creates a title based on the question name               | CreateQuestionGroupTitleCell                                   |
+| JapaneseTextField.swift      | Converts textfields into Japanese                        | JapaneseTextField, CaseBasedChart, KatakanaChart, HiraganaChart|
+| LaunchScreen.storyboard      | The launch screen                                        | None                                                           |
+| MainStoryboard.storyboard    | The main story board containing the prototype view       | None                                                           |
+| NewQuestionGroup.storyboard  | The new custom question prototype view                   | None                                                           |
+| QuestionGroupCell.swift      | Contains the cell that displays the title and percentage | QuestionGroupCell                                              |
+| QuestionView.swift           | Contains outlet connections to the prompt view           | QuestionView                                                   |
  

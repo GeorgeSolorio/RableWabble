@@ -44,5 +44,5 @@ The Caretakers folder can be found in the [Caretaker](https://github.com/GeorgeS
 The controllers folder can be found in the [Controllers](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Controllers) folder
 | File                       | Description                                                               | Obejcts     | Protocol 
 | ---------------------------|:--------------------------------------------------------------------------|:------------|:-----------------------|
-| CreateQuestionGroupViewController.swift  | This folder contains a controller and protocol that help create a row and display given data onto the table | CreateQuestionGroupViewController | CreateQuestionGroupViewControllerDelegate |
+| CreateQuestionGroupViewController.swift  | Helps create Question groups and setsup table view | CreateQuestionGroupViewController | CreateQuestionGroupViewControllerDelegate |
 

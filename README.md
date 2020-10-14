@@ -35,22 +35,23 @@ This folder consits of app delegate files given by Xcode's biolerplate code in U
 The builder files can be found in the [Builder](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Builders) folder
 | File                       | Description                                                                             | Obejcts                               |
 | ---------------------------|:----------------------------------------------------------------------------------------|:--------------------------------------|
-| QuestionGroupBuilder.swift | This file contains objects that help with the creation and deletion of custom questions | QuestionGroupBuilder, QuestionBuilder |
+| ![QuestionGroupBuilder.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Builders/QuestionGroupBuilder.swift) | This file contains objects that help with the creation and deletion of custom questions | QuestionGroupBuilder, QuestionBuilder |
 
 ## Caretakers 💿
 The Caretakers files can be found in the [Caretaker](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Caretakers) folder
 | File                       | Description                                                                             | Obejcts                               |
 | ---------------------------|:----------------------------------------------------------------------------------------|:--------------------------------------|
-| DiskCaretaker.swift        | This file contains objects that help write and save data onto a file                    | DiskCaretaker, QuestionGroupCaretaker |
+| ![DiskCaretaker.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Caretakers/DiskCaretaker.swift)| This file contains objects that help write and save data onto a file | DiskCaretaker |
+| ![QuestionGroupCaretaker.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Caretakers/QuestionGroupCaretaker.swift)| Consists of an object that saves and loads a group of questions | QuestionGroupCaretaker | 
 
 ## Controllers 🕹
 The controllers files can be found in the [Controllers](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Controllers) folder
 | File                       | Description                                                               |
 | ---------------------------|:--------------------------------------------------------------------------|
-| AppSettingsViewController.swift | Provides information about optional settings |
-| CreateQuestionGroupViewController.swift | Helps create Question groups and setsup table view | 
-| QuestionViewController.swift | Displays and interacts with the user's quiz questions | 
-| SelectQuestionGroupViewController.swift | Helps display the set of questions available and provides the settings |
+| ![AppSettingsViewController.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Controllers/AppSettingsViewController.swift) | Provides information about optional settings |
+| ![CreateQuestionGroupViewController.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Controllers/CreateQuestionGroupViewController.swift) | Helps create Question groups and setsup table view | 
+| ![QuestionViewController.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Controllers/QuestionViewController.swift) | Displays and interacts with the user's quiz questions | 
+| ![SelectQuestionGroupViewController.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Controllers/SelectQuestionGroupViewController.swift) | Helps display the set of questions available and provides the settings |
 
 | File                                    | Obejcts                           | Protocol                                  |
 | ----------------------------------------|:----------------------------------|:------------------------------------------|
@@ -63,9 +64,9 @@ The controllers files can be found in the [Controllers](https://github.com/Georg
 The model files can be found in the [Models](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Models) folder
 | File                       | Description                                         | Obejcts                           |
 | ---------------------------|:----------------------------------------------------|:----------------------------------|
-| AppSettings.swift          |  Informs the UserDefaults about the user's settings | AppSettings, QuestionStrategyType |
-| Question.swift             |  Contains the model for a question                  | Question                          |
-| QuestionGroup.swift        |  Contains information about the set of questions    | QuestionGroup                     |
+| ![AppSettings.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Models/AppSettings.swift) |  Informs the UserDefaults about the user's settings | AppSettings, QuestionStrategyType |
+| ![Question.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Models/Question.swift) |  Contains the model for a question                  | Question                          |
+| ![QuestionGroup.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Models/QuestionGroup.swift) |  Contains information about the set of questions  | QuestionGroup  |
 
 ## Resources 🛍
 The Resource files can be found in the [Resources](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Resources) folder
@@ -76,21 +77,21 @@ It Contains resouces such as user info, the japanese questions and app images
 The Strategies files can be found in the [Strategies](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Strategies) folder
 | File                             | Description                                                                   | Obejcts                    |
 | ---------------------------------|:------------------------------------------------------------------------------|:---------------------------|
-| BaseQuestionStrategy.swift       | contains methods that informs and aids in the transition of questions         | BaseQuestionStrategy       |
-| QuestionStrategy                 | An interface for the methods that aid in the transition of questions          | QuestionStrategy           |
-| RandomQuestionStrategy.swift     | contains the procedure of shuffling and randomzing a given set of questions   | RandomQuestionStrategy     |
-| SequentialQuestionStrategy.swift | contains the procedure of sequential set of questions                         | SequentialQuestionStrategy |
+| ![BaseQuestionStrategy.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Strategies/BaseQuestionStrategy.swift)       | contains methods that informs and aids in the transition of questions         | BaseQuestionStrategy       |
+| ![QuestionStrategy](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Strategies/QuestionStrategy.swift) | An interface for the methods that aid in the transition of questions | QuestionStrategy           |
+| ![RandomQuestionStrategy.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Strategies/RandomQuestionStrategy.swift) | contains the procedure of shuffling and randomzing a given set of questions   | RandomQuestionStrategy     |
+| ![SequentialQuestionStrategy.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Strategies/SequentialQuestionStrategy.swift) | contains the procedure of sequential set of questions                         | SequentialQuestionStrategy |
 
 ## Views 🖼
 The Views files can be found in the [Views](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Views) folder
 | File                         | Description                                              | Obejcts                                                        |
 | -----------------------------|:---------------------------------------------------------|:---------------------------------------------------------------|
-| CreateQuestionCell.swift     | Contains outlet connections for the creation View.       | CreateQuestionCell                                             |
-| CreateQuestionGroupTitleCell | Creates a title based on the question name               | CreateQuestionGroupTitleCell                                   |
-| JapaneseTextField.swift      | Converts textfields into Japanese                        | JapaneseTextField, CaseBasedChart, KatakanaChart, HiraganaChart|
-| LaunchScreen.storyboard      | The launch screen                                        | None                                                           |
+| ![CreateQuestionCell.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Views/CreateQuestionCell.swift)     | Contains outlet connections for the creation View.       | CreateQuestionCell                                             |
+| !CreateQuestionGroupTitleCell(https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Views/CreateQuestionGroupTitleCell.swift) | Creates a title based on the question name               | CreateQuestionGroupTitleCell                                   |
+| !J[apaneseTextField.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Views/JapaneseTextField.swift) | Converts textfields into Japanese                        | JapaneseTextField, CaseBasedChart, KatakanaChart, HiraganaChart|
+| LaunchScreen.storyboard | The launch screen                                        | None                                                           |
 | MainStoryboard.storyboard    | The main story board containing the prototype view       | None                                                           |
 | NewQuestionGroup.storyboard  | The new custom question prototype view                   | None                                                           |
-| QuestionGroupCell.swift      | Contains the cell that displays the title and percentage | QuestionGroupCell                                              |
-| QuestionView.swift           | Contains outlet connections to the prompt view           | QuestionView                                                   |
+| ![QuestionGroupCell.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Views/QuestionGroupCell.swift) | Contains the cell that displays the title and percentage | QuestionGroupCell                                              |
+| ![QuestionView.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Views/QuestionView.swift)   | Contains outlet connections to the prompt view  | QuestionView                                                   |
  

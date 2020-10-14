@@ -30,7 +30,19 @@ This folder consits of app delegate files given by Xcode's biolerplate code.
 
 ## Builder
 The builder files can be found in the [Builder](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Builders) folder
-| File                       | Description                                                                       | Obejcts                               |
-| ---------------------------|:----------------------------------------------------------------------------------|:--------------------------------------|
-| QuestionGroupBuilder.swift | This file contains objects that help with the creation and deletion of a question | QuestionGroupBuilder, QuestionBuilder |
+| File                       | Description                                                                             | Obejcts                               |
+| ---------------------------|:----------------------------------------------------------------------------------------|:--------------------------------------|
+| QuestionGroupBuilder.swift | This file contains objects that help with the creation and deletion of custom questions | QuestionGroupBuilder, QuestionBuilder |
+
+## Caretakers
+The Caretakers folder can be found in the [Caretaker](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Caretakers) folder
+| File                       | Description                                                                             | Obejcts                               |
+| ---------------------------|:----------------------------------------------------------------------------------------|:--------------------------------------|
+| DiskCaretaker.swift        | This file contains objects that help write and save data onto a file                    | DiskCaretaker, QuestionGroupCaretaker |
+
+## Controllers
+The controllers folder can be found in the [Controllers](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Controllers) folder
+| File                       | Description                                                                             | Obejcts     | Protocol 
+| -----------------------------------------|:--------------------------------------------------------------------------|:------------|:-----------------------|
+| CreateQuestionGroupViewController.swift  | This folder contains a controller and protocol that help create a row and display given data onto the table | CreateQuestionGroupViewController | CreateQuestionGroupViewControllerDelegate |
 

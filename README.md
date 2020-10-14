@@ -17,18 +17,16 @@ To learn common design patterns found in many iOS apps. Patterns such as
 * Builder
 
 ## Usage
-You may test this app by launching it on xcode and run the app either on any desired simulator or your own physical iOS device.
-The app is a quiz app that consists of a set of Japanese related questions. 
+You can launch this project in Xcode and simulate the app on your preffered device simulator. You can also try to install it on your physical iOS device.
+This app is perfect for practicing japanese! You will be greeted with a set of questions to questions to choose from, you get the choice of setting your questions randomly or sequentially. You can even create your own set of questions!!
 
-The user will have the option of setting up the questions in random or sequential order, 
-check if the answer is right and eveluate their score, choose between three sets of questions and create their own set of japanese related questions.
-Results will demonstrate the overall score of the quiz once they're done
+
 
 ## App Delegate
 The app delegate files can be found in the [App delegate](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/AppDelegate) folder.
 This folder consits of app delegate files given by Xcode's biolerplate code. 
 
-## Builder 🛠
+## Builder 🏗
 The builder files can be found in the [Builder](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Builders) folder
 | File                       | Description                                                                             | Obejcts                               |
 | ---------------------------|:----------------------------------------------------------------------------------------|:--------------------------------------|
@@ -68,7 +66,7 @@ The models files can be found in the [Models](https://github.com/GeorgeSolorio/R
 The Resources files can be found in the [Resources](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Resources) folder
 Contains resouces such as user info, the japanese questions and images
 
-## Strategies
+## Strategies 🗺
 The Strategies files can be found in the [Strategies](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Strategies) folder
 | File                         | Description                                         | Obejcts                           |
 | -----------------------------|:----------------------------------------------------|:----------------------------------|

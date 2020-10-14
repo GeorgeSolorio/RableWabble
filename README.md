@@ -69,6 +69,7 @@ The model files can be found in the [Models](https://github.com/GeorgeSolorio/Ra
 
 ## Resources 🛍
 The Resource files can be found in the [Resources](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Resources) folder
+
 It Contains resouces such as user info, the japanese questions and app images
 
 ## Strategies 🗺

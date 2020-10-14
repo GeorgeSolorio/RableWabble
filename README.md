@@ -46,4 +46,6 @@ The controllers folder can be found in the [Controllers](https://github.com/Geor
 | ---------------------------|:--------------------------------------------------------------------------|:------------|:-----------------------|
 | CreateQuestionGroupViewController.swift | Helps create Question groups and setsup table view | CreateQuestionGroupViewController | CreateQuestionGroupViewControllerDelegate |
 | QuestionViewController.swift | Displays and interacts with the user's quiz questions | QuestionViewController | QuestionViewControllerDelegate |
+| SelectQuestionGroupViewController.swift | Helps display the set of questions available and provides the settings | SelectQuestionGroupViewController | |
+
 

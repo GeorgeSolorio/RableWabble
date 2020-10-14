@@ -22,7 +22,7 @@ This app is perfect for practicing japanese! You will be greeted with a set of q
 
 Tracking Screen                   |  Settings                                | Questions                            |
 :--------------------------------:|:----------------------------------------:|:------------------------------------:|
-![question](Images/Tracking.png)  |  ![Settings]((Images/Settings.png)       | ![Question](Image/First question.png)|
+![question](Images/Tracking.png)  |  ![Settings](Images/Settings.png)        | ![Question](Image/First question.png)|
 
 
 

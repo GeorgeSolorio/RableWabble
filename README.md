@@ -28,28 +28,35 @@ Results will demonstrate the overall score of the quiz once they're done
 The app delegate files can be found in the [App delegate](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/AppDelegate) folder.
 This folder consits of app delegate files given by Xcode's biolerplate code. 
 
-## Builder
+## Builder 🛠
 The builder files can be found in the [Builder](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Builders) folder
 | File                       | Description                                                                             | Obejcts                               |
 | ---------------------------|:----------------------------------------------------------------------------------------|:--------------------------------------|
 | QuestionGroupBuilder.swift | This file contains objects that help with the creation and deletion of custom questions | QuestionGroupBuilder, QuestionBuilder |
 
-## Caretakers
+## Caretakers 💿
 The Caretakers files can be found in the [Caretaker](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Caretakers) folder
 | File                       | Description                                                                             | Obejcts                               |
 | ---------------------------|:----------------------------------------------------------------------------------------|:--------------------------------------|
 | DiskCaretaker.swift        | This file contains objects that help write and save data onto a file                    | DiskCaretaker, QuestionGroupCaretaker |
 
-## Controllers
+## Controllers 🕹
 The controllers files can be found in the [Controllers](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Controllers) folder
-| File                       | Description                                                               | Obejcts     | Protocol               |
-| ---------------------------|:--------------------------------------------------------------------------|:------------|:-----------------------|
-| AppSettingsViewController.swift | Provides information about optional settings | AppSettingsViewController | None |
-| CreateQuestionGroupViewController.swift | Helps create Question groups and setsup table view | CreateQuestionGroupViewController | CreateQuestionGroupViewControllerDelegate |
-| QuestionViewController.swift | Displays and interacts with the user's quiz questions | QuestionViewController | QuestionViewControllerDelegate |
-| SelectQuestionGroupViewController.swift | Helps display the set of questions available and provides the settings | SelectQuestionGroupViewController | None |
+| File                       | Description                                                               |
+| ---------------------------|:--------------------------------------------------------------------------|
+| AppSettingsViewController.swift | Provides information about optional settings |
+| CreateQuestionGroupViewController.swift | Helps create Question groups and setsup table view | 
+| QuestionViewController.swift | Displays and interacts with the user's quiz questions | 
+| SelectQuestionGroupViewController.swift | Helps display the set of questions available and provides the settings |
 
-## Models
+| File                                    | Obejcts                           | Protocol                                  |
+| ----------------------------------------|:----------------------------------|:------------------------------------------|
+| AppSettingsViewController.swift         | AppSettingsViewController         | None                                      |
+| CreateQuestionGroupViewController.swift | CreateQuestionGroupViewController | CreateQuestionGroupViewControllerDelegate |
+| QuestionViewController.swift            | QuestionViewController            | QuestionViewControllerDelegate            |
+| SelectQuestionGroupViewController.swift |  SelectQuestionGroupViewController| None                                      |
+
+## Models ℹ️
 The models files can be found in the [Models](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Models) folder
 | File                       | Description                                         | Obejcts                           |
 | ---------------------------|:----------------------------------------------------|:----------------------------------|
@@ -57,7 +64,7 @@ The models files can be found in the [Models](https://github.com/GeorgeSolorio/R
 | Question.swift             |  Contains the model for a question                  | Question                          |
 | QuestionGroup.swift        |  Contains information about the set of questions    | QuestionGroup                     |
 
-## Resources
+## Resources 🛍
 The Resources files can be found in the [Resources](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Resources) folder
 Contains resouces such as user info, the japanese questions and images
 
@@ -70,7 +77,7 @@ The Strategies files can be found in the [Strategies](https://github.com/GeorgeS
 | RandomQuestionStrategy.swift |  contains the procedure of shuffling and randomzing a given set of questions   | RandomQuestionStrategy |
 | SequentialQuestionStrategy.swift | contains the procedure of sequential set of questions | SequentialQuestionStrategy |
 
-## Views
+## Views 🖼
 The Views files can be found in the [Views](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Views) folder
 | File                         | Description                                         | Obejcts                                                        |
 | -----------------------------|:----------------------------------------------------|:---------------------------------------------------------------|

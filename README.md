@@ -78,7 +78,7 @@ The Strategies files can be found in the [Strategies](https://github.com/GeorgeS
 | File                             | Description                                                                   | Obejcts                    |
 | ---------------------------------|:------------------------------------------------------------------------------|:---------------------------|
 | [BaseQuestionStrategy.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Strategies/BaseQuestionStrategy.swift)       | contains methods that informs and aids in the transition of questions         | BaseQuestionStrategy       |
-| [QuestionStrategy](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Strategies/QuestionStrategy.swift) | An interface for the methods that aid in the transition of questions | QuestionStrategy           |
+| [QuestionStrategy.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Strategies/QuestionStrategy.swift) | An interface for the methods that aid in the transition of questions | QuestionStrategy           |
 | [RandomQuestionStrategy.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Strategies/RandomQuestionStrategy.swift) | contains the procedure of shuffling and randomzing a given set of questions   | RandomQuestionStrategy     |
 | [SequentialQuestionStrategy.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Strategies/SequentialQuestionStrategy.swift) | contains the procedure of sequential set of questions                         | SequentialQuestionStrategy |
 

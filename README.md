@@ -19,7 +19,7 @@ To learn common design patterns found in many iOS apps. Patterns such as
 ## Usage
 You can launch this project in Xcode and simulate the app on your preffered device simulator. You can also try to install it on your physical iOS device.
 This app is perfect for practicing japanese! You will be greeted with a set of questions to questions to choose from, you get the choice of setting your questions randomly or sequentially. You can even create your own set of questions!!
-
+![question](Images/First question.png)
 
 
 ## App Delegate

@@ -55,10 +55,10 @@ The controllers files can be found in the [Controllers](https://github.com/Georg
 
 | File                                    | Obejcts                           | Protocol                                  |
 | ----------------------------------------|:----------------------------------|:------------------------------------------|
-| AppSettingsViewController.swift         | AppSettingsViewController         | None                                      |
-| CreateQuestionGroupViewController.swift | CreateQuestionGroupViewController | CreateQuestionGroupViewControllerDelegate |
-| QuestionViewController.swift            | QuestionViewController            | QuestionViewControllerDelegate            |
-| SelectQuestionGroupViewController.swift | SelectQuestionGroupViewController | None                                      |
+| [AppSettingsViewController.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Controllers/AppSettingsViewController.swift)         | AppSettingsViewController         | None                                      |
+| [CreateQuestionGroupViewController.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Controllers/CreateQuestionGroupViewController.swift) | CreateQuestionGroupViewController | CreateQuestionGroupViewControllerDelegate |
+| QuestionViewController.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Controllers/QuestionViewController.swift) | QuestionViewController            | QuestionViewControllerDelegate            |
+| SelectQuestionGroupViewController.swift](https://github.com/GeorgeSolorio/RableWabble/blob/master/RableWabble/Controllers/SelectQuestionGroupViewController.swift) | SelectQuestionGroupViewController | None                                      |
 
 ## Models ℹ️
 The model files can be found in the [Models](https://github.com/GeorgeSolorio/RableWabble/tree/master/RableWabble/Models) folder

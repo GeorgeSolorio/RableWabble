@@ -18,7 +18,7 @@ To learn common design patterns found in many iOS apps. Patterns such as
 You can launch this project in Xcode and simulate the app on your preffered iOS simulator. You can also try to install it on your physical iOS device.
 
 This app is perfect for practicing japanese! You will be greeted with a set of questions, you can choose which ever set you want to start with.
-The goal is to guess the answer, check if it's correct and press on the red button if it's wrong or green if it's correct. Make sure to stay honest to yourself. You can set the questions in random or sequential order and even create your every own set of questions! A perfect Japanese quiz app to test your skills and track your own knowledge!
+The goal is to guess the answer, check if it's correct and press on the red button if it's wrong or green if it's correct. Make sure to stay honest to yourself. You can set the questions in random or sequential order and even create your very own set of questions! A perfect Japanese quiz app to test your skills and track your own knowledge!
 
 | Guess                           |  Check                                         | Track                                | Create                               |
 :--------------------------------:|:----------------------------------------------:|:------------------------------------:|:------------------------------------:|
